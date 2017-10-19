@@ -1,4 +1,4 @@
-# computational-model-of-rodent-somatosensory-cortical-column-
+# computational-model-of-rodent-somatosensory-cortical-column
 
 ———————————————————————— INSTALLATION————————————————————
 Download the .zip-file and unzip, preserving the folder structure. The model will run when this structure is added to the path (addpath(genpath([‘.’])), as is done in run_sim.m).
