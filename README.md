@@ -1,15 +1,19 @@
 # computational-model-of-rodent-somatosensory-cortical-column
 
 ———————————————————————— INSTALLATION————————————————————
+
 Download the .zip-file and unzip, preserving the folder structure. The model will run when this structure is added to the path (addpath(genpath([‘.’])), as is done in run_sim.m).
 
 ————————————————————————— GENERAL————————————————————————
+
 A simple example simulation can be run by executing the script quick_example, which uses the function ‘run_sim’ (this function controls the simulation, and can be used as an example for doing user-defined simulations). A 3x1 grid of barrels in L4 and L23 will be constructed, with corresponding thalamic barreloids. Thalamic input spike trains will be generated in reaction whisker input (in this case: whisker base angles and curvatures from the lab Karel Svoboda, publicly available on Data Sets — CRCNS.org), and the cortical model will respond to these thalamic spike trains. 
 
 —————————————————————————— INPUT—————————————————————————
+
 As input, data files (whisker base angle and curvature) of the lab Karel Svoboda were used (publicly available on Data Sets — CRCNS.org). The specified whisker data files are expected to be present in folder ‘Input data’. The function ‘make_thalamic_spike_trains_svoboda_recordings’ in folder ‘Make_New_Thinput’ makes spike trains from the whisker data. For the use of any other input, make a file similar to this example. 
 
 ————————————————————————— SIMULATION—————————————————————
+
 A full simulation includes:
 1.	generating new input spike trains (make_new_thalamic_input = 1), relevant functions in ‘Make_New_Thinput’
 2.	making new thalamic filter neurons (make_new_thalamic_kernels = 1), relevant functions in ‘Make_New_Thinput’
@@ -17,6 +21,7 @@ A full simulation includes:
 4.	Initialising and running the network, relevant functions in ‘Network Simulations’
 
 ————————————————————————— RESULTS————————————————————————
+
 This will result in the following files in folder ‘Simulation Results -> (user defined name)
 
 * cellinfo: information about all cells: (Number of Cells-by 6) matrix, with
