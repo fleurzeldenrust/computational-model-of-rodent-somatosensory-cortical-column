@@ -34,22 +34,22 @@ This will result in the following files in folder ‘Simulation Results -> (user
 		* second column: position from the middle of the barrel (~dorsal-ventral) 
 		* third column: depth, distance from pia
 	* 4th column is the cell type 
-			* 1 - L4 spiny stallet
-			* 2 - L4 pyramidal
-			* 3 - L4 Fast spike 
-			* 4 - L4 low-threshold spike
-			* 5 - L2/3 pyramidal 
-			* 6 - L2/3 PV+ fast spike
-			* 7 - L2/3 PV+ chandler
-			* 8 - L2/3 PV+ bursting 
-			* 9 - L2/3 SOM+ martinotti 
-			* 10 - L2/3 SOM+ bitufted 
-			* 11 - VIP+ double bouquet 
-			* 12 - VIP+ bipolar
-			* 13 - CR+ bipolar
-			* 14 - CR+ multipolar/basket			
-			* 15 - neurogliaform 
-			Note: some L2/3 types have been merged with other types so in the matrix the numbers are 0); 
+		* 1 - L4 spiny stallet
+		* 2 - L4 pyramidal
+		* 3 - L4 Fast spike 
+		* 4 - L4 low-threshold spike
+		* 5 - L2/3 pyramidal 
+		* 6 - L2/3 PV+ fast spike
+		* 7 - L2/3 PV+ chandler
+		* 8 - L2/3 PV+ bursting 
+		* 9 - L2/3 SOM+ martinotti 
+		* 10 - L2/3 SOM+ bitufted 
+		* 11 - VIP+ double bouquet 
+		* 12 - VIP+ bipolar
+		* 13 - CR+ bipolar
+		* 14 - CR+ multipolar/basket			
+		* 15 - neurogliaform 
+		Note: some L2/3 types have been merged with other types so in the matrix the numbers are 0); 
 	* 5th column is the barrel identification (different number indication different barrels). 
 	* 6th column is Exe/Inh indicator (1 for excitatory and -1 for inhibitory neurons)
 * CMDMs: all connectivity data
